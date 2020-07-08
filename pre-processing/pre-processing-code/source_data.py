@@ -5,8 +5,12 @@ from urllib.error import URLError, HTTPError
 from multiprocessing.dummy import Pool
 
 def data_to_s3(frmt):
-    source_dataset_url = 'https://data.cms.gov/api/views/qcn7-gc3g/rows'
+    # throws error occured if there was a problem accessing data
+	# otherwise downloads and uploads to s3
 
+    source_dataset_url = 'https://data.cms.gov/api/views/qcn7-gc3g/rows'
+   
+    
     try:
         response = urlopen(source_dataset_url + frmt)
         
@@ -17,12 +21,17 @@ def data_to_s3(frmt):
         raise Exception('URLError: ', e.reason, frmt)
 
     else:
-        data_set_name = os.environ['DATA_SET_NAME']
+      #  data_set_name = os.environ['DATA_SET_NAME']
+        data_set_name = 'yoyoyo123'
         filename = data_set_name + frmt
-        file_location = '/tmp/' + filename
+        file_location = 'C:/Users/Ayush Varma/Desktop/' + filename
+        
+        
 
         with open(file_location, 'wb') as f:
+            print('hi')
             f.write(response.read())
+            f.close()
 
         # variables/resources used to upload to s3
         # s3_bucket = os.environ['S3_BUCKET']
@@ -33,12 +42,14 @@ def data_to_s3(frmt):
         
         print('Uploaded: ' + filename)
         
+        
 
         # deletes to preserve limited space in aws lamdba
         #os.remove(file_location)
 
         # dicts to be used to add assets to the dataset revision
         #return {'Bucket': s3_bucket, 'Key': new_s3_key + filename}
+        
 
 def source_dataset():
 
