@@ -7,8 +7,7 @@ Excess Deaths Associated with COVID-19 | CDC / NCHS
 
 The source code outlining how this product gathers, transforms, revises
 and publishes its datasets is available at
-[https://github.com/rearc-data/Ordering-Referring-Medicare/]
-(https://github.com/rearc-data/Ordering-Referring-Medicare/).
+[https://github.com/rearc-data/Ordering-Referring-Medicare](https://github.com/rearc-data/Ordering-Referring-Medicare).
 
 Main Overview
 -------------
