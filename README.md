@@ -8,8 +8,7 @@ Order and Referring | CMS
 Main Overview
 -------------
 
-This release provides information of medical specialists, physicians or
-not, who can be consulted by those in the Medicare program released by
+This release provides information of medical specialists, physicians and other healthcare professionals who can be consulted by those in the Medicare program released by
 the Centers for Medicare & Medicaid Services (CMS).
 
 Centers for Medicare & Medicaid provide substantial amounts of data to
@@ -29,9 +28,9 @@ More Information
 
 -   Source - [Centers for Medicare & Medicaid Services
     (CMS)](https://data.cms.gov/Medicare-Enrollment/Order-and-Referring/qcn7-gc3g)
--   [Terms of Use](https://www.usa.gov/government-works)
 -   [CMS Data Homepage](https://data.cms.gov/)
--   Frequency: ?
+-   [Terms of Use](https://www.usa.gov/government-works) 
+-   Frequency: Daily
 -   Formats: CSV, JSON
 
 Contact Details
@@ -39,7 +38,7 @@ Contact Details
 
 -   If you find any issues or have enhancements with this product, open
     up a GitHub
-    [issue](https://github.com/rearc-data/excess-deaths-covid-19/issues)
+    [issue](https://github.com/rearc-data/ordering-referring-medicare/issues)
     and we will gladly take a look at it. Better yet, submit a pull
     request. Any contributions you make are greatly appreciated :heart:.
 -   If you are interested in any other open datasets, please create a
