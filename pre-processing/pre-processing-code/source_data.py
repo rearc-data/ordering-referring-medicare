@@ -60,5 +60,3 @@ def source_dataset():
     # asset_list is returned to be used in lamdba_handler function
     return asset_list
 
-
-source_dataset()
