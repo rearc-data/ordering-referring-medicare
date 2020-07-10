@@ -82,7 +82,7 @@ How can I contribute?
 If you have feedback specific to the ADX product featured in this
 repository, the best way to contact us would be through [opening a
 GitHub
-issue](https://github.com/rearc-data/excess-deaths-covid-19/issues) in
+issue](https://github.com/rearc-data/ordering-referring-medicare/issues) in
 this repository. Before opening an issue please review the existing
 suggestions to see if your idea is already there. If already present,
 please comment on the existing issue instead of making a new one.
