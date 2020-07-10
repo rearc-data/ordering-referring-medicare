@@ -45,7 +45,7 @@ Contact Details
     request on our project board
     [here](https://github.com/rearc-data/covid-datasets-aws-data-exchange/projects/1).
 -   If you have questions about this source data, please send the
-    National Center for Health Statistics an email at nchsed@cdc.gov.
+    Center for Medicare & Medicaid Services an email at cardinal.williams@cms.hhs.gov.
 -   If you have any other questions or feedback, send us an email at
     data@rearc.io.
 
