@@ -4,6 +4,7 @@
 
 Order and Referring Medicare Data | CMS
 =========================
+You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [https://aws.amazon.com/marketplace/pp/prodview-ymiystuotpuwa](https://aws.amazon.com/marketplace/pp/prodview-ymiystuotpuwa).
 
 Main Overview
 -------------
