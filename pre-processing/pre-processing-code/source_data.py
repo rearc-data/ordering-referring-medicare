@@ -21,7 +21,7 @@ def data_to_s3(frmt):
         raise Exception('URLError: ', e.reason, frmt)
 
     else:
-        data_set_name = os.environ['DATA_SET_NAME']
+        data_set_name = os.environ['DATASET_NAME']
         filename = data_set_name + frmt
         file_location = '/tmp/' + filename
 
@@ -30,7 +30,7 @@ def data_to_s3(frmt):
             f.close()
 
         # variables/resources used to upload to s3
-        s3_bucket = os.environ['S3_BUCKET']
+        s3_bucket = os.environ['ASSET_BUCKET']
         new_s3_key = data_set_name + '/dataset/'
         s3 = boto3.client('s3')
 
@@ -59,4 +59,3 @@ def source_dataset():
 
     # asset_list is returned to be used in lamdba_handler function
     return asset_list
-
